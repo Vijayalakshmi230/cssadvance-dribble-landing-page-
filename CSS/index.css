@@ -40,11 +40,11 @@ ul li:hover ul.sub-list-1{
 }
 .p-1{
     font-size: 30px;
-    margin-left: 100px;
+    margin-left: 150px;
     font-family:  "Pacifico", cursive;
 }
 .search{
-    margin-left: 150px;
+    margin-left: 200px;
 }
 input{
     border: none;
