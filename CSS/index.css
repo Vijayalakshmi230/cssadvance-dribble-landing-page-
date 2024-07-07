@@ -114,7 +114,7 @@ body .slider {
 }
 
 .profile-card {
-    border-radius: 10px;
+    border-radius: 50px;
     overflow: hidden;
     width: 300px;
     text-align: center;
@@ -200,6 +200,48 @@ body .slider {
     font-size: 40px;
     text-align: center;
 }
+body .gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-section{
+    background-color:rgb(247, 244, 244) ;
+    padding:20px;
+    border: none;
+}
+p{
+    background-color: transparent;
+}
+.g1{
+    height:250px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 30px rgb(41, 33, 33);
+}
+.details{
+    display: flex;
+    align-items: center;
+}
+.gb{
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: rgb(41, 33, 33);
+    margin-left: 10px;
+    
+    margin-right: 110px;
+    
+}
+.fa-solid{
+    background-color: transparent;
+    padding: 2px;
+}
+.fa-regular{
+    padding: 5px;
+    background-color: transparent;
+    
+}
 .button-5{
     border:2px solid black;
     padding: 20px;
@@ -270,5 +312,3 @@ footer{
     list-style: none;
     display: flex;
 }
-
-
